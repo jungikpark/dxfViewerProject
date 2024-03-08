@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3fcb0d6b-f2ec-4674-bdda-5df809930521}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\DXF_S">
+      <UniqueIdentifier>{b5f1d28b-ec52-4894-b886-44e550a391c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drawing_S">
+      <UniqueIdentifier>{84591202-6ff8-42c0-aab0-70dcdec58792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a6d4ce18-9602-4bae-a572-6bdb1cd3c323}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DXF_H">
+      <UniqueIdentifier>{2f3aaded-2143-4177-a26f-d79bf6087250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Drawing_H">
+      <UniqueIdentifier>{b14ba61b-c67b-453d-b249-043e211634fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{a72f8b5a-3f6b-4b84-bbe9-3e5c21fed7db}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\DXFFile\Read\DRBlocks.cpp">
+      <Filter>Source Files\DXF_S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXFFile\Read\DREntities.cpp">
+      <Filter>Source Files\DXF_S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXFFile\Read\DRTables.cpp">
+      <Filter>Source Files\DXF_S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXFFile\Write\DWBlocks.cpp">
+      <Filter>Source Files\DXF_S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXFFile\Write\DWEntities.cpp">
+      <Filter>Source Files\DXF_S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXFFile\Write\DWTables.cpp">
+      <Filter>Source Files\DXF_S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXFFile\Base\DXFBase.cpp">
+      <Filter>Source Files\DXF_S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXFFile\Read\DXFRead.cpp">
+      <Filter>Source Files\DXF_S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXFFile\Write\DXFWrite.cpp">
+      <Filter>Source Files\DXF_S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drawing\View\DimView.cpp">
+      <Filter>Source Files\Drawing_S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drawing\DrwIO.cpp">
+      <Filter>Source Files\Drawing_S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drawing\MemDrw.cpp">
+      <Filter>Source Files\Drawing_S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drawing\View\TextView.cpp">
+      <Filter>Source Files\Drawing_S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drawing\View\View.cpp">
+      <Filter>Source Files\Drawing_S</Filter>
+    </ClCompile>
+    <ClCompile Include="CadIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CadIO.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\DXFFile\Read\DRBlocks.h">
+      <Filter>Header Files\DXF_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXFFile\Read\DREntities.h">
+      <Filter>Header Files\DXF_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXFFile\Read\DRTables.h">
+      <Filter>Header Files\DXF_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXFFile\Write\DWBlocks.h">
+      <Filter>Header Files\DXF_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXFFile\Write\DWEntities.h">
+      <Filter>Header Files\DXF_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXFFile\Write\DWTables.h">
+      <Filter>Header Files\DXF_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXFFile\Base\DXFBase.h">
+      <Filter>Header Files\DXF_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Interface\VC\DXFDef.h">
+      <Filter>Header Files\DXF_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXFFile\Read\DXFRead.h">
+      <Filter>Header Files\DXF_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXFFile\Write\DXFWrite.h">
+      <Filter>Header Files\DXF_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXFFile\Base\SimpleList.h">
+      <Filter>Header Files\DXF_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drawing\View\Colors.h">
+      <Filter>Header Files\Drawing_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drawing\View\DimView.h">
+      <Filter>Header Files\Drawing_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Interface\VC\DrawingDef.h">
+      <Filter>Header Files\Drawing_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drawing\DrwIO.h">
+      <Filter>Header Files\Drawing_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drawing\MemDrw.h">
+      <Filter>Header Files\Drawing_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drawing\View\TextView.h">
+      <Filter>Header Files\Drawing_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drawing\View\View.h">
+      <Filter>Header Files\Drawing_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CadIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CadIO.def">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
